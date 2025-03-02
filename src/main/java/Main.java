@@ -5,7 +5,7 @@ import java.util.Scanner;
  */
 public class Main {
 
-    public static void main(String[] args) {
+    public void main(String[] args) {
         int number = getInputNumber();
 
         int sum = sumOfNumbers(number);
@@ -43,8 +43,9 @@ public class Main {
     // for Extra Credit
     int gaussianSumOfNumbers(int n) {
         return 0;
+
     }
-    // for Extra extra credit - compare the methods and show which one is faster
+    // for Extra credit - compare the methods and show which one is faster
     // google "how to time some java code"
     // use "System.currentTimeMillis()" to ask the system what time it is.
 }
